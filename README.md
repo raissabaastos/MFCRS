@@ -1,2 +1,5 @@
 # MFCRS
 Magnectig Field Cosmic Ray Simulation (MFCRS) is a python based simulation that covers four different types os magnectic fields, from fundamental to galactic models. The main goal is to compute trajectories of different Cosmic Rays chemical compositions and obtain physical information about them.
+The file name Fund_ is regarding the most fundamental models of fields: the uniform, the variable in r and the dipolar. They are helpful to understand the general functioning of the simulation and also study basic phycical aspects os CR propagation.
+The file named Galac_ is based in two galactic magnetic field models: the axissimetric (ASS) and bissimetric (BSS). It is capable os extracting more physical aspects of the propagation, and it relies on the other two files, Energy2_deflexão.C and mapa_deflec_vetorial.C to complete its analysis. They are two C based codes that run with CERN's ROOT.  
+This project is the product of my cientific initiation program with FAPESP and I've been working on it for almost 2yrs now :)
