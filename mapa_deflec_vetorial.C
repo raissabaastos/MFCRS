@@ -31,7 +31,7 @@ double normLonRad(double lon)
    return lon;
 }
 
-// Projecao Aitoff manual.
+
 // Entrada: lon, lat em radianos.
 // Saida: x, y no plano da projecao.
 void Aitoff(double lon, double lat, double &x, double &y)
@@ -73,8 +73,7 @@ void CartToSph(double x, double y, double z, double &lat, double &lon)
    lon = atan2(y, x);
 }
 
-// Desenha uma curva na esfera entre dois pontos.
-// Isso evita a reta artificial no plano.
+
 void DrawGreatCirclePath(
    double lat1,
    double lon1,
